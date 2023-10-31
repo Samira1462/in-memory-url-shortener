@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+baseUrl: https://bl.co/
+NotFound:
+  ErrorMessage: URL Not Found
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /url-shortener.html
+
+
